@@ -28,6 +28,9 @@ nnoremap <C-c> y
 inoremap <C-c> y
 vnoremap <C-c> y
 
+nnoremap <C-v> p
+inoremap <C-v> <ESC>pa
+
 nnoremap <C-i> <C-a>
 nnoremap <C-a> ggVG
 inoremap <C-a> <ESC>ggVG
