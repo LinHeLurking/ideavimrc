@@ -40,7 +40,7 @@ inoremap <C-s> <ESC>:w<CR>a
 
 """ Mappings (MISC) --------------------------------
 nnoremap \r :action IdeaVim.ReloadVimRc.reload<CR>
-nnoremap <Leader>ch :nohl<CR>
+nnoremap <Leader>ch :set hlsearch!<CR>
 nnoremap <Leader>cr :set relativenumber!<CR>
 
 """ Mappings (Window Action) ------------------------
