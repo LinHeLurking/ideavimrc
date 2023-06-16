@@ -38,6 +38,8 @@ inoremap <C-a> <ESC>ggVG
 nnoremap <C-s> :w<CR>
 inoremap <C-s> <ESC>:w<CR>a
 
+nnoremap / :set hlsearch<CR>/
+
 """ Mappings (MISC) --------------------------------
 nnoremap \r :action IdeaVim.ReloadVimRc.reload<CR>
 nnoremap <Leader>ch :set hlsearch!<CR>
