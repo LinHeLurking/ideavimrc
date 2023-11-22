@@ -39,6 +39,8 @@ inoremap <C-a> <ESC>ggVG
 nnoremap <C-s> :w<CR>
 inoremap <C-s> <ESC>:w<CR>a
 
+nnoremap <C-o> :action Back<CR>
+
 nnoremap / :set hlsearch<CR>/
 
 """ Mappings (MISC) --------------------------------
